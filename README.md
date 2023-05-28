@@ -9,7 +9,7 @@ After application startups, all data will be inserted from ukpostcodesmysql.sql.
 # How to build?
 You can build application with maven and jdk-17.
 mvn clean install wrapper:wrapper
-#Before running
+# Before running
 You have to unzip src\main\resources\ukpostcodesmysql.zip before application runs.
 # How to run?
 You can run application as a springboot application.
