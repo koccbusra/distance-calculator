@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "b9f71020-56da-4af3-828f-b882289f9e8a",
+		"name": "distance-calculator-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetDistance",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateLocation",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"outcode\":\"iphone_13\",\r\n    \"lat\":1200,\r\n    \"lng\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/updateLocation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"updateLocation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
